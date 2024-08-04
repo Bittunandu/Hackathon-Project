@@ -1,0 +1,85 @@
+.App {
+  min-height: 80vw;
+  background-color: #E9F1FA;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+h2, h3, h4{
+  margin: .25em;
+}
+.App-header {
+  background-color: #0964b0;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.inputOptions {
+  margin: 1em;
+}
+.inputOptions label {
+  cursor: pointer;
+}
+.Content {
+  padding: 15px;
+}
+.InputOptionContainer {
+  flex: 1;
+}
+.InputCaptureContainer {
+  flex: 4;
+}
+button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  color: #0964b0;
+}
+button::after, button::after {
+  background: #f3f4f6;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #0965b0a4;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  color: #0964b0;
+}
+
+tr:nth-child(even) {
+  background-color: #0965b0a4;
+}
+.InputSection {
+  display: flex;
+  margin-bottom: 15px;
+}
+table {
+  -moz-box-shadow: 0 0 3px #ddd;
+    -webkit-box-shadow: 0 0 3px #ddd;
+    box-shadow: 0 0 3px #ddd;
+    border-radius: 4px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
